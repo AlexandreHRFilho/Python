@@ -5,7 +5,7 @@ def addName():
     entry_box.delete(0,END)
     entry_box.focus()
 def clear():
-    name_list.delete(0,END)
+    name_list.delete(END)
     entry_box.focus()
 window = Tk()
 window.title("Name list")
