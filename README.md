@@ -1,2 +1,2 @@
 # Python
- Algorithms for solve some problems
+ Algorithms for solve some problems and learn python.
