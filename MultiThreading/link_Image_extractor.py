@@ -10,7 +10,7 @@ def extract_links(page): #a / href --> img / src
 
 
 if __name__ == '__main__':
-    target_url = ''
+    target_url = 'http://'
     apress = download_page(target_url)
     links = extract_links(apress)
     for link in links:
